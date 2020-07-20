@@ -1,0 +1,171 @@
+/* 
+ * Embark
+ * Developed by Matthew Rungwe
+*/
+
+
+/* Poster */
+#poster {
+  height: 90vh;
+  width: 100%;
+}
+
+#poster .poster-bg {
+  background-image: url('../assets/images/inspire.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#poster .poster-content {
+  position: relative;
+  top: 50%;
+}
+
+#poster .poster-content p {
+  color: white;
+  font-size: 32px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* Poster end*/
+
+/* Main */
+main{
+  width: 85%;
+  max-width: 800px;
+  margin: 10px auto;
+}
+/* Main end*/
+
+/* Profile section */
+#profile-section {
+  margin: 0 auto;
+}
+
+#profile-section .profile-img {
+  width: 250px;
+  height: 250px;
+  margin: 10px auto;
+}
+
+#profile-section .profile-img img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+#profile-section .profile-bio p {
+  font-family: serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+#profile-section .profile-bio p span{
+  display: block;
+}
+/* Profile section end */
+
+/* Mission section */
+#mission-section {
+  margin: 10px auto;
+}
+
+#mission-section .heading{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#mission-section p {
+  font-family: serif;
+  font-size: 18px;
+  text-align: justify;
+}
+/* Mission section end */
+
+/* Footer */
+footer{
+  background-color: #333;
+  color: white;
+  height: 30vh;
+  /* margin-top: 10px; */
+}
+
+.bottom-navigation{
+  /* border: 1px solid red; */
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.book-links, .other-links{
+  /* border: 1px solid orange; */
+  width: 50%;
+  flex: 1;
+}
+
+.bottom-navigation h3{
+  color: grey;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bottom-navigation ul{
+  width: fit-content;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+}
+
+.bottom-navigation ul li{
+  list-style-type: none;
+  margin-left: -15px;
+}
+
+.bottom-navigation ul li a{
+  color: white;
+}
+
+.bottom-navigation ul li a:hover, .bottom-navigation ul li a:active{
+  color: #1d9cd2;
+}
+
+.site-author{
+  text-align: center;
+  font-size: small;
+}
+/* Footer end */
+
+@media screen and (min-width: 768px) {
+  /* Profile section */
+  #profile-section {
+    width: 80%;
+    display: flex;
+  }
+
+  #profile-section .profile-img {
+    flex: 1;
+  }
+
+  #profile-section .profile-img img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+
+  #profile-section .profile-bio {
+    flex: 1;
+  }
+
+  #profile-section .profile-bio p {
+    text-align: justify;
+  }
+
+  #profile-section .profile-bio p span{
+    display: inline;
+  }
+  /* Profile section end */
+}
+

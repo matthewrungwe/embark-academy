@@ -1,0 +1,358 @@
+/* Poster section */
+#poster {
+  height: 90vh;
+  width: 100%;
+}
+
+#poster .poster-bg {
+  background-image: url('../assets/images/library.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%; 
+}
+
+#poster .poster-content {
+  position: relative;
+  top: 50%;
+}
+
+#poster .poster-content p {
+  color: white;
+  font-size: 32px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#poster .poster-search{
+  position: relative;
+  top: 65%;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* Poster section end */
+
+/* -------------------------------------------------------------------- */
+
+/* Recent posts section */
+#recent-posts-section{
+    background-color: #333;
+    padding: 20px;
+    /* border: 1px solid orange; */
+}
+
+#recent-posts-section .heading h1{
+    font-size: 25px; 
+    color: white;
+}
+
+.recent-articles-container{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+.article-container{
+  /* border: 1px solid purple; */
+  margin: 0 auto;
+}
+
+.recent-article{
+    /* width: 50%;
+    min-width: 300px; */
+    max-width: 350px;
+    margin: 10px auto;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+
+.recent-article .article-img{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.recent-article .article-heading{
+    margin-top: 20px;
+}
+
+.recent-article .article-heading h2{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.recent-article .article-heading h2 a{
+  color: #333;
+}
+
+.recent-article .article-heading h2 a:hover{
+  color: rgb(76, 153, 183);
+}
+
+
+.recent-article .article-meta{
+    margin-top: 25px; 
+    padding-bottom: 20px;
+}
+
+.recent-article .article-meta li{
+    font-size: 14px;
+}
+
+.recent-article .article-meta li:nth-child(1){
+    color: grey;
+}
+
+.recent-article .article-meta li:nth-child(2){
+    color: #333333;
+}
+
+/* Recent posts section */
+
+/* -------------------------------------------------------------------- */
+
+/* Other posts section */
+#other-posts-section{
+  padding: 20px;
+}
+
+#other-posts-section .heading{
+  margin: 10px;
+}
+
+#other-posts-section .heading h1{
+  font-size: 30px;
+}
+
+.other-article{
+  /* border: 1px solid red; */
+  height: 200px;
+  margin: 15px 0;
+}
+
+.other-article .article-img{
+  /* border: 1px dashed green; */
+}
+
+.img{
+  position: relative;
+  top: 10px;
+  background-color: grey;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.other-article .article-info{
+  /* border: 1px solid orange; */
+}
+
+.other-article .article-heading h2 a{
+  color: #333;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.other-article .article-heading h2 a:hover{
+  color: rgb(76, 153, 183);
+}
+
+.other-article .article-meta ul{
+  display: inline;
+}
+
+.other-article .article-meta li{
+  float: left;
+  color: grey;
+}
+
+.other-article .article-meta li:nth-child(1){
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+.other-article .article-meta li:nth-child(2){
+  margin-left: 30px;
+  list-style-type: none;
+  color: black;
+}
+
+.other-article .article-meta li:nth-child(2)::before{
+  content: "by ";
+}
+
+
+.other-article .article-brief-content p{
+  font-family: serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+/* Other posts section end */
+
+/* -------------------------------------------------------------------- */
+/* Small device media query */
+@media screen and (max-width: 768px){
+
+  /* Recent posts section */
+  #recent-posts-section{
+    padding: 10px;
+    /* border: 1px solid orange; */
+}
+
+#recent-posts-section .heading h1{
+    font-size: 25px; 
+    color: white;
+}
+
+.recent-articles-container{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+.article-container{
+  /* border: 1px solid purple; */
+  margin: 0 auto;
+}
+
+.recent-article{
+    margin: 10px auto;
+    background-color: white;    
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+
+.recent-article .article-img{
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.recent-article .article-heading{
+    margin-top: 20px;
+}
+
+.recent-article .article-heading h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.recent-article .article-heading h2 a{
+  color: #333;
+}
+
+.recent-article .article-heading h2 a:hover{
+  color: rgb(76, 153, 183);
+}
+
+
+.recent-article .article-meta{
+    margin-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.recent-article .article-meta li{
+    color: grey;
+    font-size: 14px;
+}
+  /* Recent posts section end */
+
+  /* Other posts section */
+  #other-posts-section{
+    padding: 10px;
+  }
+
+  .other-article{
+    height: 450px;
+    margin: 10px 0;
+    /* border: 1px solid blue; */
+  }
+
+  .other-article .article-img{
+    /* border: 1px dotted orange; */
+    margin: 0 auto;
+    height: 200px;
+  }
+
+  .other-article .article-info{
+    /* border: 1px dashed green; */
+    margin: 0 auto;
+  }
+
+  .img{
+    position: relative;
+    top: 5px;
+    background-color: grey;
+    width: 85%;
+    height: 95%;
+    margin: 0 auto;
+    /* border: 1px dotted red; */
+  }
+
+  .other-article .article-meta ul li{
+    font-size: 12px;
+    /* border: 1px solid purple; */
+  }
+  /* Other posts section end */
+}
+
+/* Footer */
+footer{
+  background-color: #333;
+  color: white;
+  height: 30vh;
+  /* margin-top: 10px; */
+}
+
+.bottom-navigation{
+  /* border: 1px solid red; */
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.book-links, .other-links{
+  /* border: 1px solid orange; */
+  width: 50%;
+  flex: 1;
+}
+
+.bottom-navigation h3{
+  color: grey;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bottom-navigation ul{
+  width: fit-content;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+}
+
+.bottom-navigation ul li{
+  list-style-type: none;
+  margin-left: -15px;
+}
+
+.bottom-navigation ul li a{
+  color: white;
+}
+
+.bottom-navigation ul li a:hover, .bottom-navigation ul li a:active{
+  color: #1d9cd2;
+}
+
+.site-author{
+  text-align: center;
+  font-size: small;
+}
+/* Footer end */

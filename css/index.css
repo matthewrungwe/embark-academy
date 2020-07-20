@@ -1,0 +1,123 @@
+/* Header */
+#poster {
+  height: 90vh;
+  width: 100%;
+}
+#poster .poster-bg {
+  background-image: url('../assets/images/coffee-break.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+#poster .poster-content {
+  position: relative;
+  top: 40%;
+  left: 30%;
+  width: 60%;
+}
+#poster .poster-content p {
+  color: white;
+  font-size: 20px;
+}
+/* Header end */
+
+main{
+  /* width: 85%;
+  max-width: 1000px;
+  margin: 0 auto; */
+  /* border: 1px solid blue; */
+}
+
+/* GLOBAL STYLES */
+#section-heading{
+  width: 100%;
+  margin: 10px 0;
+}
+
+#section-heading h1{
+  text-align: center;
+  font-size: 38px;
+}
+/* GLOBAL STYLES end*/
+
+/* Books preview section */
+.book{
+  /* border: 1px solid red; */
+  margin: 10px auto;
+}
+
+.book-img{
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.book-title{
+  font-size: 25px;
+  color: #333;
+}
+
+.book-brief-content{
+  color: black;
+}
+
+.book-brief-content:hover{
+  text-decoration: unset;
+}
+/* Books preview section end */
+
+/* Footer */
+footer{
+  background-color: #333;
+  color: white;
+  height: 30vh;
+  /* margin-top: 10px; */
+}
+
+.bottom-navigation{
+  /* border: 1px solid red; */
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.book-links, .other-links{
+  /* border: 1px solid orange; */
+  width: 50%;
+  flex: 1;
+}
+
+.bottom-navigation h3{
+  color: grey;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bottom-navigation ul{
+  width: fit-content;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+}
+
+.bottom-navigation ul li{
+  list-style-type: none;
+  margin-left: -15px;
+}
+
+.bottom-navigation ul li a{
+  color: white;
+}
+
+.bottom-navigation ul li a:hover, .bottom-navigation ul li a:active{
+  color: #1d9cd2;
+}
+
+.site-author{
+  text-align: center;
+  font-size: small;
+}
+/* Footer end */

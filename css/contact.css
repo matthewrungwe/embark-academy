@@ -1,0 +1,160 @@
+body{
+    background-color: whitesmoke;
+}
+
+/* Poster section */
+#poster {
+  height: 90vh;
+  width: 100%;
+}
+
+#poster .poster-bg {
+  background-image: url('../assets/images/contact.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%; 
+}
+
+#poster .poster-content {
+  position: relative;
+  top: 50%;
+}
+
+#poster .poster-content p {
+  color: white;
+  font-size: 32px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* Poster section end */
+
+/* Main */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  /* border: 1px solid orange; */
+}
+/* Main end*/
+
+/* Heading section */
+#heading-section{
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+#heading-section h1{
+  margin-top: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+
+#heading-section p{
+  font-size: 18px;
+  padding: 10px;
+}
+/* Heading section end */
+
+/* Form section */
+#form-section{
+  margin: 10px;
+  padding: 10px;
+  /* border: 1px solid green; */
+}
+
+.input-block{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  /* border: 1px solid blue; */
+}
+
+.input-block input{
+  height: 80%;
+  width: 100%;
+  color: grey;
+  font-size: 18px;
+  margin-left: -4px;
+  padding-left: 5px; 
+  border: none;
+}
+
+.input-block input:focus{ 
+  border: none;
+}
+
+.textarea-block{
+  width: 100%;
+  margin-bottom: 10px;
+  /* border: 1px solid blue; */
+}
+
+.textarea-block textarea{
+  width: 100%;
+  height: auto;
+  color: grey;
+  font-size: 18px;
+  padding-left: 5px; 
+  border: none;
+}
+/* Form section end */
+
+/* Footer */
+footer{
+  background-color: #333;
+  color: white;
+  height: 30vh;
+  /* margin-top: 10px; */
+}
+
+.bottom-navigation{
+  /* border: 1px solid red; */
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.book-links, .other-links{
+  /* border: 1px solid orange; */
+  width: 50%;
+  flex: 1;
+}
+
+.bottom-navigation h3{
+  color: grey;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bottom-navigation ul{
+  width: fit-content;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+}
+
+.bottom-navigation ul li{
+  list-style-type: none;
+  margin-left: -15px;
+}
+
+.bottom-navigation ul li a{
+  color: white;
+}
+
+.bottom-navigation ul li a:hover, .bottom-navigation ul li a:active{
+  color: #1d9cd2;
+}
+
+.site-author{
+  text-align: center;
+  font-size: small;
+}
+/* Footer end */
